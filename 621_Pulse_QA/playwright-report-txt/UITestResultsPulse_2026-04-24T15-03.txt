@@ -1,0 +1,162 @@
+
+Running 10 tests using 7 workers
+
+  ✓  6 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:54:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (3.7s)
+  ✓  2 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:44:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (4.3s)
+  ✓  4 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:59:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (4.9s)
+  ✓  3 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:49:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (5.7s)
+  ✓  5 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:28:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (6.9s)
+  ✓  7 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements aon the BLUE TOP BAR are visible on the page (7.6s)
+  ✓  1 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (7.4s)
+  ✓  10 [chromium-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (3.5s)
+  ✓  8 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:44:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (6.3s)
+  ✘  9 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:25:1 › Should Login with valid credentials and enter MFA code using POM (9.8s)
+  ✘  11 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:25:1 › Should Login with valid credentials and enter MFA code using POM (retry #1) (7.2s)
+  ✘  12 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:25:1 › Should Login with valid credentials and enter MFA code using POM (retry #2) (7.2s)
+
+
+  1) [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:25:1 › Should Login with valid credentials and enter MFA code using POM › MFA PAGE: Submit MFA code and verify successful login to default page per type of User 
+
+    Error: page
+
+    [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected string: [32m"https://pulse-dev.bbrownretapps.com/[7mDashboard/[27m"[39m
+    Received string: [31m"https://pulse-dev.bbrownretapps.com/[7mAccount/LoginWith2fa?rememberMe=False[27m"[39m
+    Call log:
+    [2m  - Expect "page" with timeout 5000ms[22m
+    [2m    9 × unexpected value "https://pulse-dev.bbrownretapps.com/Account/LoginWith2fa?rememberMe=False"[22m
+
+
+      44 |   await test.step('MFA PAGE: Submit MFA code and verify successful login to default page per type of User', async () => {
+      45 |     await mfaPage.submitMFA(testData.mfaCode);
+    > 46 |     await expect(page,"page").toHaveURL('https://pulse-dev.bbrownretapps.com/Dashboard/');
+         |                               ^
+      47 |
+      48 |     // Define the path for the authentication file
+      49 |     // This file will store the authenticated state after login
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:46:31
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:44:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page
+
+    [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected string: [32m"https://pulse-dev.bbrownretapps.com/[7mDashboard/[27m"[39m
+    Received string: [31m"https://pulse-dev.bbrownretapps.com/[7mAccount/LoginWith2fa?rememberMe=False[27m"[39m
+    Call log:
+    [2m  - Expect "page" with timeout 5000ms[22m
+    [2m    9 × unexpected value "https://pulse-dev.bbrownretapps.com/Account/LoginWith2fa?rememberMe=False"[22m
+
+
+      44 |   await test.step('MFA PAGE: Submit MFA code and verify successful login to default page per type of User', async () => {
+      45 |     await mfaPage.submitMFA(testData.mfaCode);
+    > 46 |     await expect(page,"page").toHaveURL('https://pulse-dev.bbrownretapps.com/Dashboard/');
+         |                               ^
+      47 |
+      48 |     // Define the path for the authentication file
+      49 |     // This file will store the authenticated state after login
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:46:31
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:44:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page
+
+    [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected string: [32m"https://pulse-dev.bbrownretapps.com/[7mDashboard/[27m"[39m
+    Received string: [31m"https://pulse-dev.bbrownretapps.com/[7mAccount/LoginWith2fa?rememberMe=False[27m"[39m
+    Call log:
+    [2m  - Expect "page" with timeout 5000ms[22m
+    [2m    8 × unexpected value "https://pulse-dev.bbrownretapps.com/Account/LoginWith2fa?rememberMe=False"[22m
+
+
+      44 |   await test.step('MFA PAGE: Submit MFA code and verify successful login to default page per type of User', async () => {
+      45 |     await mfaPage.submitMFA(testData.mfaCode);
+    > 46 |     await expect(page,"page").toHaveURL('https://pulse-dev.bbrownretapps.com/Dashboard/');
+         |                               ^
+      47 |
+      48 |     // Define the path for the authentication file
+      49 |     // This file will store the authenticated state after login
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:46:31
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-02_login-mfa.spec.ts:44:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-02_login-mfa-Should-L-9c7ff-nd-enter-MFA-code-using-POM-chromium-notAuthenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:25:1 › Should Login with valid credentials and enter MFA code using POM 
+  9 passed (33.8s)
+
+[36m  Serving HTML report at http://localhost:9323. Press Ctrl+C to quit.[39m
+Terminate batch job (Y/N)? 
+^C
+Running 5 tests using 5 workers
+
+  ✓  1 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (2.6s)
+  ✓  2 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:32:7 › HOME ADMIN page using POM › Underwriter Dashboard (6.4s)
+  ✓  4 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (6.9s)
+  ✓  5 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:41:7 › HOME ADMIN page using POM › Verify Admin Side Panel Menu (6.7s)
+  ✓  3 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:56:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (7.2s)
+
+  5 passed (9.4s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-24T22_05_18_789Z[39m
+[36m[39m
+

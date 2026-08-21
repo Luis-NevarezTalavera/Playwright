@@ -1,0 +1,26 @@
+
+Running 16 tests using 7 workers
+
+  ✓  3 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get appSpecialties Facility  - No Auth - 200 - 217 (634ms)
+  ✓  1 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get appSpecialties Physician  - No Auth - 200 - 217 (715ms)
+  ✓  5 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get uiSectionSpecialties Physician Surgeon NewSpecialties - No Auth - 200 - 13 (674ms)
+  ✓  2 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get Specialties All  - No Auth - 200 - 217 (710ms)
+  ✓  4 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get uiSectionSpecialties Physician Surgeon PhysicianInTraining - No Auth - 200 - 3 (689ms)
+  ✓  7 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get appSpecialties HealthcarePro  - No Auth - 200 - 217 (666ms)
+  ✓  6 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get uiSectionSpecialties Physician Surgeon Other - No Auth - 200 - 101 (665ms)
+  ✓  9 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get uiSectionSpecialties Healthcare Facility Hospital - No Auth - 200 - 11 (108ms)
+  ✓  10 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get CGLItems All  - No Auth - 200 - 35 (111ms)
+  ✓  11 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get CGLItems Item 1  - No Auth - 200 - 1 (107ms)
+  ✓  12 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get CGLItems Item N  - No Auth - 200 - 1 (124ms)
+  ✓  14 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get facilityprofession   - No Auth - 200 - 21 (127ms)
+  ✓  13 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get Limits   - No Auth - 200 - 4 (135ms)
+  ✓  15 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get States   - No Auth - 200 - 60 (109ms)
+  ✓  16 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get Zips   - No Auth - 200 - 90 (116ms)
+  ✓  8 [msEdge-notAuthenticated] › tests\APIs-SurveyJS-DDT.spec.ts:12:9 › Pulse JUA SurveyJS APIs › Get uiSectionSpecialties Healthcare Professional Other - No Auth - 404 - 10 (380ms)
+
+  16 passed (2.5s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-07-15T19-53-07-693Z[39m
+[36m[39m

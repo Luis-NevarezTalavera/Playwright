@@ -1,0 +1,1925 @@
+
+Running 10 tests using 7 workers
+
+  ✓  1 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:54:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (5.5s)
+  ✓  4 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:59:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (6.2s)
+  ✓  2 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:44:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (7.1s)
+  ✓  5 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:49:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (8.3s)
+  ✓  7 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:28:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (9.8s)
+  ✓  6 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements aon the BLUE TOP BAR are visible on the page (10.0s)
+  ✓  8 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:44:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (6.5s)
+  ✓  10 [chromium-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (5.6s)
+  ✓  3 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (13.1s)
+  ✓  9 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (7.8s)
+
+  10 passed (17.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-27T14-25-13-143Z[39m
+[36m[39m
+
+Running 53 tests using 7 workers
+
+Testing application: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade
+Testing application: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade
+  ✓  7 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:41:7 › HOME ADMIN page using POM › Verify Admin Side Panel Menu (7.4s)
+  ✓  1 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:56:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (8.0s)
+Testing application: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade
+Testing application: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade
+  ✓  4 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (9.2s)
+Testing application: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade
+  ✓  3 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:32:7 › HOME ADMIN page using POM › Underwriter Dashboard (9.0s)
+Testing application: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade
+  ✓  2 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (9.5s)
+Testing application: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade
+  ✘  5 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (33.6s)
+  ✘  6 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (33.9s)
+Testing application: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade
+Testing application: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade
+  ✘  9 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (35.9s)
+  ✘  10 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (35.3s)
+  ✘  8 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (36.1s)
+  ✘  11 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (35.5s)
+  ✘  12 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (35.3s)
+Testing application: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade
+Testing application: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade
+Testing application: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade
+Testing application: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade
+Testing application: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade
+  ✘  13 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #1) (33.2s)
+  ✘  14 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #1) (32.6s)
+Testing application: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade
+Testing application: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade
+  ✘  16 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #1) (35.0s)
+  ✘  19 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (retry #1) (34.3s)
+  ✘  15 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (retry #1) (34.8s)
+  ✘  17 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (retry #1) (34.7s)
+  ✘  18 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (retry #1) (35.1s)
+Testing application: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade
+Testing application: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade
+Testing application: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade
+Testing application: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade
+Testing application: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade
+  ✘  20 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #2) (34.2s)
+  ✘  21 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #2) (36.8s)
+Testing application: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence
+Testing application: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade
+  ✘  23 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (retry #2) (35.3s)
+  ✘  22 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #2) (36.3s)
+  ✘  26 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (retry #2) (33.7s)
+  ✘  24 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (retry #2) (36.0s)
+  ✘  25 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (retry #2) (36.1s)
+Testing application: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence
+Testing application: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence
+Testing application: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence
+Testing application: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence
+Testing application: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence
+  ✘  27 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (37.6s)
+  ✘  28 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (36.5s)
+Testing application: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade
+Testing application: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence
+  ✘  29 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (34.3s)
+  ✘  30 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (36.1s)
+  ✘  33 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence (35.3s)
+  ✘  32 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence (34.5s)
+  ✘  31 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (35.4s)
+Testing application: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence
+Testing application: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence
+Testing application: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence
+Testing application: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence
+Testing application: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence
+  ✘  34 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (retry #1) (33.6s)
+  ✘  35 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (retry #1) (34.0s)
+Testing application: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade
+Testing application: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence
+  ✘  40 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (retry #1) (39.7s)
+  ✘  39 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence (retry #1) (40.6s)
+  ✘  37 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (retry #1) (41.1s)
+  ✘  38 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence (retry #1) (40.3s)
+  ✘  36 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (retry #1) (39.5s)
+Testing application: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence
+Testing application: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence
+Testing application: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence
+Testing application: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence
+Testing application: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence
+  ✘  41 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (retry #2) (33.0s)
+  ✘  42 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (retry #2) (32.9s)
+Testing application: 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence
+Testing application: 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence
+  ✘  46 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence (retry #2) (34.9s)
+  ✘  44 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence (retry #2) (35.3s)
+  ✘  47 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (retry #2) (34.5s)
+  ✘  45 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (retry #2) (35.8s)
+  ✘  43 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (retry #2) (36.6s)
+Testing application: AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade
+Testing application: 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade
+Testing application: DD3C60C1-7C98-4A9D-846B-08DE39C62624 - 000022 - HealthCareProfessional - ClaimsMade
+Testing application: 66145BFE-A167-4248-846C-08DE39C62624 - 000023 - HealthCareProfessional - ClaimsMade
+Testing application: 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade
+  ✘  48 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence (35.6s)
+  ✘  49 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence (33.8s)
+Testing application: 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence
+Testing application: 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence
+  ✘  51 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade (34.8s)
+  ✘  50 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade (34.3s)
+  ✘  52 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade (34.8s)
+  ✘  53 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number DD3C60C1-7C98-4A9D-846B-08DE39C62624 - 000022 - HealthCareProfessional - ClaimsMade (34.5s)
+  ✘  54 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 66145BFE-A167-4248-846C-08DE39C62624 - 000023 - HealthCareProfessional - ClaimsMade (33.5s)
+Testing application: AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade
+Testing application: DD3C60C1-7C98-4A9D-846B-08DE39C62624 - 000022 - HealthCareProfessional - ClaimsMade
+Testing application: 66145BFE-A167-4248-846C-08DE39C62624 - 000023 - HealthCareProfessional - ClaimsMade
+Testing application: 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade
+Testing application: 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade
+Terminate batch job (Y/N)? ^C
+
+
+  1) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-9394d-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-4d0af-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-b7e31-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3fc86-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-14d42-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-e8164-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-33332-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-568d2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-a7e39-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3b47c-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-21154-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-bfa18-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-16819-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-de875-ysicianSurgeon---Occurrence-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-c75bc-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-c75bc-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-c75bc-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-c75bc-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-c75bc-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-5784f-ysicianSurgeon---Occurrence-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-5784f-ysicianSurgeon---Occurrence-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-5784f-ysicianSurgeon---Occurrence-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-5784f-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-5784f-ysicianSurgeon---Occurrence-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-d6c87-reProfessional---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-d6c87-reProfessional---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-d6c87-reProfessional---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-d6c87-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-d6c87-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-37c73-reProfessional---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-37c73-reProfessional---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-37c73-reProfessional---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-37c73-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-37c73-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  19) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e26ef-reProfessional---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e26ef-reProfessional---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-e26ef-reProfessional---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-e26ef-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-e26ef-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  20) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number DD3C60C1-7C98-4A9D-846B-08DE39C62624 - 000022 - HealthCareProfessional - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-ecf7b-reProfessional---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-ecf7b-reProfessional---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-ecf7b-reProfessional---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-ecf7b-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-ecf7b-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  21) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 66145BFE-A167-4248-846C-08DE39C62624 - 000023 - HealthCareProfessional - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Documents' })[22m
+
+
+       6 |     console.log(`Testing application: ${appId} - ${appNo} - ${categoryName} - ${policyType}`);
+       7 |     await page.goto('https://pulse-dev.bbrownretapps.com/Account/Login?ReturnUrl=%2FInsuranceApp%2Fc94fe6c3-9160-4d8f-36b4-08de38c84580');
+    >  8 |     await page.getByRole('tab', { name: 'Documents' }).click();
+         |                                                        ^
+       9 |     await page.getByRole('button', { name: 'View' }).nth(1).click();
+      10 |     await expect(page).toHaveScreenshot();
+      11 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:8:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3d2be-reProfessional---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3d2be-reProfessional---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-Quote-test-f-3d2be-reProfessional---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-Quote-test-f-3d2be-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-Quote-test-f-3d2be-reProfessional---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  21 failed
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number DD3C60C1-7C98-4A9D-846B-08DE39C62624 - 000022 - HealthCareProfessional - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:5:7 › Quote test for application number 66145BFE-A167-4248-846C-08DE39C62624 - 000023 - HealthCareProfessional - ClaimsMade 
+  27 did not run
+  5 passed (5.3m)
+

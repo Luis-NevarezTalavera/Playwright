@@ -1,0 +1,717 @@
+
+Running 10 tests using 7 workers
+
+  ✓  5 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:51:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (5.7s)
+  ✓  7 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (7.9s)
+  ✓  1 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:46:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (7.7s)
+  ✓  4 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:29:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (10.8s)
+  ✓  6 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:56:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (11.9s)
+  ✓  3 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements on the BLUE TOP BAR are visible on the page (12.4s)
+  ✓  2 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (12.6s)
+  ✓  8 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (8.0s)
+  ✓  10 [msEdge-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (3.9s)
+  ✓  9 [msEdge-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (6.5s)
+
+  10 passed (18.9s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-24T20-13-11-730Z[39m
+[36m[39m
+
+Running 101 tests using 4 workers
+
+  ✓  2 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:23:7 › Dashboard page › Verify Underwriter Side Panel Menu and URL (3.2s)
+  ✓  1 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:58:7 › Dashboard page › Verify Admin Side Panel Menu (5.0s)
+  ✓  4 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:15:7 › Dashboard page › Verify TOP BAR Elements and URL (8.6s)
+  ✓  5 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:75:7 › Dashboard page › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (5.7s)
+  ✓  3 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:32:7 › Dashboard page › Underwriter Dashboard (9.6s)
+  ✘  6 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (10.0s)
+  ✘  7 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (7.7s)
+  ✘  9 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (10.0s)
+  ✘  8 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (10.8s)
+  ✘  10 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (9.4s)
+  ✘  11 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (8.8s)
+  ✘  12 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (9.2s)
+  ✘  13 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (11.6s)
+  ✘  14 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (11.5s)
+  ✘  15 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (9.5s)
+  ✘  16 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (9.4s)
+  ✘  17 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (9.4s)
+  ✘  18 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence (9.3s)
+  ✘  19 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence (9.0s)
+  ✘  20 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence (9.1s)
+Terminate batch job (Y/N)?   ✘  23 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade (2.5s)
+  -  24 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 8341CE50-A286-4936-846A-08DE39C62624 - 000021 - HealthCareProfessional - ClaimsMade
+  ✘  22 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade (5.5s)
+  ✘  21 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence (9.7s)
+
+
+  1) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-dcf31-4580---000003---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-dcf31-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-dcf31-4580---000003---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-dcf31-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-d4d83-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-8d563-2624---000004---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-8d563-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-8d563-2624---000004---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-8d563-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-114e3-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-0dbe3-2624---000005---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-0dbe3-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-0dbe3-2624---000005---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-0dbe3-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-f794b-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-b9e1e-2624---000006---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-b9e1e-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-b9e1e-2624---000006---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-b9e1e-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-2a7ae-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-c87b8-2624---000007---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-c87b8-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-c87b8-2624---000007---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-c87b8-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-46d84-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-3db2e-2624---000008---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-3db2e-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-3db2e-2624---000008---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-3db2e-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-aa06c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-101af-2624---000009---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-101af-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-101af-2624---000009---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-101af-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-23aeb-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-1aee7-2624---000010---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-1aee7-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-1aee7-2624---000010---PhysicianSurgeon---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-1aee7-icianSurgeon---ClaimsMade-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-c75b2-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-e7d1f-2624---000011---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-e7d1f-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-e7d1f-2624---000011---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-e7d1f-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-43cef-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-631cc-2624---000012---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-631cc-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-631cc-2624---000012---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-631cc-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-f5d13-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-2a62f-2624---000013---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-2a62f-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-2a62f-2624---000013---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-2a62f-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-9ad0c-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-7af90-2624---000014---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-7af90-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-7af90-2624---000014---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-7af90-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-d19ea-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-126fc-2624---000015---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-126fc-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-126fc-2624---000015---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-126fc-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-d1f18-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-ff9cc-2624---000016---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-ff9cc-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-ff9cc-2624---000016---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-ff9cc-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-31a0a-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence 
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-322fa-2624---000017---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-322fa-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-322fa-2624---000017---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-322fa-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-0de96-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence 
+
+    Test was interrupted.
+
+    Error: A snapshot doesn't exist at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-3693c-2624---000018---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png, writing actual.
+
+      24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      25 |       
+    > 26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |       ^
+      27 |
+      28 |     });
+      29 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:26:7
+
+    attachment #1: Insurance-application---UW-3693c-icianSurgeon---Occurrence-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-te-3693c-2624---000018---PhysicianSurgeon---Occurrence-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\Insurance-application---UW-3693c-icianSurgeon---Occurrence-1-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-835c1-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade 
+
+    Test was interrupted.
+
+    Error: page.waitForTimeout: Test ended.
+
+      22 |       await insuranceAppPage.quoteAppUWButton.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      23 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+    > 24 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+         |                  ^
+      25 |       
+      26 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+      27 |
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:24:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c1359-reProfessional---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c1359-reProfessional---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-c1359-reProfessional---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-c1359-reProfessional---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade 
+
+    Test was interrupted.
+
+    Error: locator.selectText: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('link', { name: 'Contact Us' })[22m
+
+
+      18 |       );
+      19 |       
+    > 20 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+         |                                            ^
+      21 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+      22 |       await insuranceAppPage.quoteAppUWButton.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      23 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:20:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-1e01f-reProfessional---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-1e01f-reProfessional---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-1e01f-reProfessional---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15 failed
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AA8A585A-1890-4BCE-8465-08DE39C62624 - 000016 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 4AAA2C09-2340-4256-8466-08DE39C62624 - 000017 - PhysicianSurgeon - Occurrence 
+  3 interrupted
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 21B076D9-DE83-49C5-8467-08DE39C62624 - 000018 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: AB52F7BD-4535-4281-8468-08DE39C62624 - 000019 - HealthCareProfessional - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 87F4AF12-2EAE-432C-8469-08DE39C62624 - 000020 - HealthCareProfessional - ClaimsMade 
+  78 did not run
+  5 passed (1.1m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-24T20-13-32-967Z[39m
+[36m[39m
+
+^C

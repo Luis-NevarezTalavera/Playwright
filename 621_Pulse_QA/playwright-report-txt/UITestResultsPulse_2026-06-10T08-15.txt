@@ -1,0 +1,434 @@
+
+Running 10 tests using 7 workers
+
+  ✓  1 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:59:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (5.0s)
+  ✓  4 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:49:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (6.0s)
+  ✓  5 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:44:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (6.1s)
+  ✓  2 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:54:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (6.2s)
+  ✓  7 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements on the BLUE TOP BAR are visible on the page (8.5s)
+  ✓  6 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:29:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (10.1s)
+  ✓  3 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (9.6s)
+  ✓  10 [chromium-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (3.8s)
+  ✓  8 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (5.7s)
+  ✓  9 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (6.4s)
+
+  10 passed (15.1s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-10T15-15-19-665Z[39m
+[36m[39m
+
+Running 8 tests using 7 workers
+
+  ✓  4 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:58:7 › HOME ADMIN page using POM › Verify Admin Side Panel Menu (5.2s)
+  ✓  1 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (9.1s)
+  ✓  2 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:32:7 › HOME ADMIN page using POM › Underwriter Dashboard (10.1s)
+  ✓  3 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (10.0s)
+  ✓  5 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:75:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (10.9s)
+  ✘  6 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (19.2s)
+  ✘  7 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (19.9s)
+  ✘  8 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (19.5s)
+  ✘  9 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #1) (30.9s)
+  ✘  10 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #1) (31.2s)
+  ✘  11 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #1) (31.5s)
+  ✘  12 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #2) (31.0s)
+  ✘  13 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #2) (30.9s)
+  ✘  14 [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #2) (30.9s)
+
+
+  1) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveScreenshot[2m([22m[32mexpected[39m[2m)[22m
+
+      430 pixels (ratio 0.01 of all image pixels) are different.
+
+    Call log:
+    [2m  - Expect "toHaveScreenshot" with timeout 5000ms[22m
+    [2m    - verifying given screenshot expectation[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - 430 pixels (ratio 0.01 of all image pixels) are different.[22m
+    [2m  - waiting 100ms before taking screenshot[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - captured a stable screenshot[22m
+    [2m  - 430 pixels (ratio 0.01 of all image pixels) are different.[22m
+
+
+      59 |           await page.locator('.blazorpdf-pdf > div:nth-child(3)').click({ timeout: 3000 }); // click over the PDF viewer to trigger any potential lazy loading of the PDF content;
+      60 |
+    > 61 |           await expect(page).toHaveScreenshot({ threshold: 0.05 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |                              ^
+      62 |
+      63 |         } catch (error) {
+      64 |           throw error;
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:61:30
+
+    attachment #1: HOME-ADMIN-page-using-POM--a10af-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_Quote.spec.ts-snapshots\HOME-ADMIN-page-using-POM-Quote-test-for-appli-a10af-4580---000003---PhysicianSurgeon---ClaimsMade-1-chromium-authenticated-win32.png
+    Received: test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--a10af-icianSurgeon---ClaimsMade-1-actual.png
+    Diff:     test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--a10af-icianSurgeon---ClaimsMade-1-diff.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-201b2-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveScreenshot[2m([22m[32mexpected[39m[2m)[22m
+
+      71974 pixels (ratio 0.08 of all image pixels) are different.
+
+    Call log:
+    [2m  - Expect "toHaveScreenshot" with timeout 5000ms[22m
+    [2m    - verifying given screenshot expectation[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - 71974 pixels (ratio 0.08 of all image pixels) are different.[22m
+    [2m  - waiting 100ms before taking screenshot[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - captured a stable screenshot[22m
+    [2m  - 71974 pixels (ratio 0.08 of all image pixels) are different.[22m
+
+
+      59 |           await page.locator('.blazorpdf-pdf > div:nth-child(3)').click({ timeout: 3000 }); // click over the PDF viewer to trigger any potential lazy loading of the PDF content;
+      60 |
+    > 61 |           await expect(page).toHaveScreenshot({ threshold: 0.05 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |                              ^
+      62 |
+      63 |         } catch (error) {
+      64 |           throw error;
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:61:30
+
+    attachment #1: HOME-ADMIN-page-using-POM--dcb8c-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_Quote.spec.ts-snapshots\HOME-ADMIN-page-using-POM-Quote-test-for-appli-dcb8c-2624---000004---PhysicianSurgeon---ClaimsMade-1-chromium-authenticated-win32.png
+    Received: test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--dcb8c-icianSurgeon---ClaimsMade-1-actual.png
+    Diff:     test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--dcb8c-icianSurgeon---ClaimsMade-1-diff.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-c4a36-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveScreenshot[2m([22m[32mexpected[39m[2m)[22m
+
+      75 pixels (ratio 0.01 of all image pixels) are different.
+
+    Call log:
+    [2m  - Expect "toHaveScreenshot" with timeout 5000ms[22m
+    [2m    - verifying given screenshot expectation[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - 75 pixels (ratio 0.01 of all image pixels) are different.[22m
+    [2m  - waiting 100ms before taking screenshot[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - captured a stable screenshot[22m
+    [2m  - 75 pixels (ratio 0.01 of all image pixels) are different.[22m
+
+
+      59 |           await page.locator('.blazorpdf-pdf > div:nth-child(3)').click({ timeout: 3000 }); // click over the PDF viewer to trigger any potential lazy loading of the PDF content;
+      60 |
+    > 61 |           await expect(page).toHaveScreenshot({ threshold: 0.05 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |                              ^
+      62 |
+      63 |         } catch (error) {
+      64 |           throw error;
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:61:30
+
+    attachment #1: HOME-ADMIN-page-using-POM--b6a63-icianSurgeon---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_Quote.spec.ts-snapshots\HOME-ADMIN-page-using-POM-Quote-test-for-appli-b6a63-2624---000005---PhysicianSurgeon---ClaimsMade-1-chromium-authenticated-win32.png
+    Received: test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--b6a63-icianSurgeon---ClaimsMade-1-actual.png
+    Diff:     test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\HOME-ADMIN-page-using-POM--b6a63-icianSurgeon---ClaimsMade-1-diff.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.selectText: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      26 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      27 |
+    > 28 |       await insuranceAppPage.createQuoteButton.selectText(); // auto-wait for the 'Create Quote' button to be visible and enabled
+         |                                                ^
+      29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      30 |
+      31 |       await page.waitForTimeout(1000); // wait for the "Quote Created" toast notification to appear
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_Quote.spec.ts:28:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_Quote-HOME-ADMIN-p-6ee8b-ysicianSurgeon---ClaimsMade-chromium-authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+    [chromium-authenticated] › tests\Auth-10_Quote.spec.ts:12:9 › HOME ADMIN page using POM › Quote test for application number 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+  5 passed (1.6m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-10T15-15-37-188Z[39m
+[36m[39m
+

@@ -1,0 +1,35 @@
+
+Running 10 tests using 7 workers
+
+  ✓  5 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:44:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (2.8s)
+  ✓  2 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:59:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (2.8s)
+  ✓  6 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:49:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (3.3s)
+  ✓  1 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:54:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (4.8s)
+  ✓  4 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (5.6s)
+  ✓  10 [chromium-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (2.3s)
+  ✓  7 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:28:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (5.8s)
+  ✓  3 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements aon the BLUE TOP BAR are visible on the page (5.9s)
+  ✓  9 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:23:1 › Should Login with valid credentials and enter MFA code using POM (3.9s)
+  ✓  8 [chromium-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:44:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (5.3s)
+
+  10 passed (10.8s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-10T14_41_51_690Z[39m
+[36m[39m
+
+Running 4 tests using 4 workers
+
+  ✓  2 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (2.5s)
+  ✓  4 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:54:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (5.0s)
+  ✓  1 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (6.2s)
+  ✓  3 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:30:7 › HOME ADMIN page using POM › Underwriter Dashboard (8.0s)
+
+  4 passed (9.9s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-10T14_42_05_909Z[39m
+[36m[39m
+

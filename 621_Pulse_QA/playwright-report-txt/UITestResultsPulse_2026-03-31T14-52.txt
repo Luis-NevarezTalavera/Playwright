@@ -1,0 +1,30 @@
+
+Running 5 tests using 5 workers
+
+  ok 5 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:37:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (3.3s)
+  ok 2 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:32:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (3.4s)
+  ok 4 [chromium-notAuthenticated] › tests\NotA-01_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (4.1s)
+  ok 3 [chromium-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:17:7 › Home Page not Logged In › Should display the expected controls using POM (6.0s)
+  ok 1 [chromium-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:23:1 › Should Login with valid credentials and enter MFA code using POM (6.1s)
+
+  5 passed (8.7s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-03-31T14_52_49_561Z[39m
+[36m[39m
+
+Running 4 tests using 4 workers
+
+  ok 4 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (4.2s)
+  ok 2 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:54:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (5.3s)
+  ok 1 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (6.8s)
+  ok 3 [chromium-authenticated] › tests\Auth-01_home-admin.spec.ts:30:7 › HOME ADMIN page using POM › Underwriter Dashboard (6.4s)
+
+  4 passed (9.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-03-31T14_53_01_841Z[39m
+[36m[39m
+

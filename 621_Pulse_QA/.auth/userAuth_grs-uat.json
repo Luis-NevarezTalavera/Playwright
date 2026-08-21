@@ -1,0 +1,50 @@
+[
+  {
+    "domain": ".grs-uat.bbrownretapps.com",
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "ARRAffinity",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "3fc6c7b5cda0b79b073f1da14bf28bd257fa3d9bf9023298f06c5b39b0272369"
+  },
+  {
+    "domain": ".grs-uat.bbrownretapps.com",
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "ARRAffinitySameSite",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "3fc6c7b5cda0b79b073f1da14bf28bd257fa3d9bf9023298f06c5b39b0272369"
+  },
+  {
+    "domain": ".grs-uat.bbrownretapps.com",
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "ARRAffinity",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "3fc6c7b5cda0b79b073f1da14bf28bd257fa3d9bf9023298f06c5b39b0272369"
+  },
+  {
+    "domain": ".grs-uat.bbrownretapps.com",
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "ARRAffinitySameSite",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "3fc6c7b5cda0b79b073f1da14bf28bd257fa3d9bf9023298f06c5b39b0272369"
+  }
+]

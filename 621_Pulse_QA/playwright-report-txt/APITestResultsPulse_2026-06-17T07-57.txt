@@ -1,0 +1,26 @@
+
+Running 16 tests using 7 workers
+
+  ✓  6 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:138:5 › Get uiSectionSpecialties - Physician Surgeon - NewSpecialties - No Auth - 200 OK (367ms)
+  ✓  7 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:166:5 › Get uiSectionSpecialties - Physician Surgeon - Other - No Auth - 200 OK (356ms)
+  ✓  8 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:194:5 › Get uiSectionSpecialties - Health Care Professional - Other - No Auth - 404 No Results (112ms)
+  ✓  9 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:205:5 › Get uiSectionSpecialties - Healthcare Facility - Hospital - No Auth - 200 OK (112ms)
+  ✓  2 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:85:5 › Get appSpecialties - Physician - No Auth - 200 OK (673ms)
+  ✓  3 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:3:5 › Get Specialties - No Auth - 200 OK (663ms)
+  ✓  11 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:262:5 › Get CGLItems - Item 1 - No Auth - 200 OK (112ms)
+  ✓  10 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:233:5 › Get CGLItems - No Auth - 200 OK (118ms)
+  ✓  1 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:60:5 › Get appSpecialties - HealthcarePro - No Auth - 200 OK (758ms)
+  ✓  5 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:110:5 › Get uiSectionSpecialties - Physician Surgeon - PhysicianInTraining - No Auth - 200 OK (680ms)
+  ✓  4 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:35:5 › Get appSpecialties - Facility - No Auth - 200 OK (714ms)
+  ✓  12 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:284:5 › Get CGLItems - Item N - No Auth - 200 OK (109ms)
+  ✓  13 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:306:5 › Get Facility Professions - No Auth - 200 OK (124ms)
+  ✓  14 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:332:5 › Get Limits - No Auth - 200 OK (114ms)
+  ✓  15 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:360:5 › Get States - No Auth - 200 OK (115ms)
+  ✓  16 [msEdge-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:386:5 › Get Zips - No Auth - 200 OK (118ms)
+
+  16 passed (2.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-17T14-57-06-308Z[39m
+[36m[39m

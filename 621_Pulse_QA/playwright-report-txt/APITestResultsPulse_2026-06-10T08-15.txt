@@ -1,0 +1,26 @@
+
+Running 16 tests using 7 workers
+
+  ✓  5 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:85:5 › Get appSpecialties - Physician - No Auth - 200 OK (311ms)
+  ✓  8 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:194:5 › Get uiSectionSpecialties - Health Care Professional - Other - No Auth - 404 No Results (137ms)
+  ✓  6 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:138:5 › Get uiSectionSpecialties - Physician Surgeon - NewSpecialties - No Auth - 200 OK (475ms)
+  ✓  1 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:3:5 › Get Specialties - No Auth - 200 OK (638ms)
+  ✓  2 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:60:5 › Get appSpecialties - HealthcarePro - No Auth - 200 OK (560ms)
+  ✓  4 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:35:5 › Get appSpecialties - Facility - No Auth - 200 OK (578ms)
+  ✓  3 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:110:5 › Get uiSectionSpecialties - Physician Surgeon - PhysicianInTraining - No Auth - 200 OK (587ms)
+  ✓  9 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:205:5 › Get uiSectionSpecialties - Healthcare Facility - Hospital - No Auth - 200 OK (123ms)
+  ✓  7 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:166:5 › Get uiSectionSpecialties - Physician Surgeon - Other - No Auth - 200 OK (566ms)
+  ✓  10 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:233:5 › Get CGLItems - No Auth - 200 OK (118ms)
+  ✓  11 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:262:5 › Get CGLItems - Item 1 - No Auth - 200 OK (123ms)
+  ✓  12 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:284:5 › Get CGLItems - Item N - No Auth - 200 OK (120ms)
+  ✓  13 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:332:5 › Get Limits - No Auth - 200 OK (122ms)
+  ✓  14 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:306:5 › Get Facility Professions - No Auth - 200 OK (131ms)
+  ✓  15 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:360:5 › Get States - No Auth - 200 OK (138ms)
+  ✓  16 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:386:5 › Get Zips - No Auth - 200 OK (126ms)
+
+  16 passed (2.1s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-10T15-15-15-824Z[39m
+[36m[39m

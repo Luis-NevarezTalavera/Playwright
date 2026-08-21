@@ -1,0 +1,1280 @@
+
+Running 10 tests using 7 workers
+
+  ✓  5 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:56:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (5.0s)
+  ✓  2 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:51:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (7.3s)
+  ✓  6 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:46:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (7.1s)
+  ✓  1 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (9.0s)
+  ✓  7 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements on the BLUE TOP BAR are visible on the page (7.4s)
+  ✓  4 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:29:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (10.9s)
+  ✓  10 [msEdge-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (3.5s)
+  ✘  3 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (11.1s)
+  ✓  9 [msEdge-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (6.6s)
+  ✓  11 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (retry #1) (2.1s)
+  ✘  8 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (30.6s)
+  ✓  12 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (retry #1) (4.5s)
+
+
+  1) [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM 
+
+    Error: page
+
+    [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected string: [32m"https://pulse-dev.bbrownretapps.com/Account/Login"[39m
+    Received string: [31m"https://pulse-dev.bbrownretapps.com/Account/Login[7m?[27m"[39m
+    Call log:
+    [2m  - Expect "page" with timeout 5000ms[22m
+    [2m    - waiting for" https://pulse-dev.bbrownretapps.com/Account/Login?" navigation to finish...[22m
+    [2m    - navigated to "https://pulse-dev.bbrownretapps.com/Account/Login?"[22m
+    [2m    8 × unexpected value "https://pulse-dev.bbrownretapps.com/Account/Login?"[22m
+
+
+      62 |     await homeNotLoggedInPage.loginToPulseLink.click(); 
+      63 |     await homeNotLoggedInPage['page'].waitForTimeout(500); // Wait for the login page to load before asserting the URL)
+    > 64 |     await expect(homeNotLoggedInPage['page'],"page").toHaveURL("https://pulse-dev.bbrownretapps.com/Account/Login");
+         |                                                      ^
+      65 |   });
+      66 |   
+      67 | });
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-00_home-NotLoggedIn.spec.ts:64:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('img', { name: 'Rhode Island JUA' })[22m
+
+
+      44 |
+      45 |     test('Clicking MMJUALink should navigate to the Home page', async () => {
+    > 46 |       await newsFirstNotLoggedInPage.MMJUALink.click();
+         |                                                ^
+      47 |       await expect(newsFirstNotLoggedInPage['page'],"Default page").toHaveURL("https://pulse-dev.bbrownretapps.com/");
+      48 |     });
+      49 |
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\NotA-01_news-NotLoggedIn.spec.ts:46:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-01_news-NotLoggedIn-N-3c266-d-navigate-to-the-Home-page-msEdge-notAuthenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-01_news-NotLoggedIn-N-3c266-d-navigate-to-the-Home-page-msEdge-notAuthenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-01_news-NotLoggedIn-N-3c266-d-navigate-to-the-Home-page-msEdge-notAuthenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-01_news-NotLoggedIn-N-3c266-d-navigate-to-the-Home-page-msEdge-notAuthenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-01_news-NotLoggedIn-N-3c266-d-navigate-to-the-Home-page-msEdge-notAuthenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 flaky
+    [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM 
+    [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page 
+  8 passed (44.7s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-17T14-57-10-222Z[39m
+[36m[39m
+
+Running 101 tests using 4 workers
+
+  ✓  3 [msEdge-Authenticated] › tests\Auth-01_home-admin.spec.ts:58:7 › HOME ADMIN page using POM › Verify Admin Side Panel Menu (3.9s)
+  ✓  4 [msEdge-Authenticated] › tests\Auth-01_home-admin.spec.ts:23:7 › HOME ADMIN page using POM › Verify Underwriter Side Panel Menu and URL (4.4s)
+  ✓  1 [msEdge-Authenticated] › tests\Auth-01_home-admin.spec.ts:15:7 › HOME ADMIN page using POM › Verify TOP BAR Elements and URL (4.7s)
+  ✓  2 [msEdge-Authenticated] › tests\Auth-01_home-admin.spec.ts:32:7 › HOME ADMIN page using POM › Underwriter Dashboard (6.2s)
+  ✓  5 [msEdge-Authenticated] › tests\Auth-01_home-admin.spec.ts:75:7 › HOME ADMIN page using POM › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (6.2s)
+  ✘  7 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (5.0s)
+  ✘  6 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (5.3s)
+  ✘  8 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (5.1s)
+  ✘  9 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (4.5s)
+  ✘  10 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #1) (5.9s)
+  ✘  11 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #1) (6.0s)
+  ✘  12 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #1) (4.8s)
+  ✘  13 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (retry #1) (5.5s)
+  ✘  14 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade (retry #2) (5.4s)
+  ✘  15 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade (retry #2) (5.6s)
+  ✘  17 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade (retry #2) (4.8s)
+  ✘  18 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (5.5s)
+  ✘  19 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (5.7s)
+  ✘  20 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (5.8s)
+  ✘  16 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade (retry #2) (5.1s)
+  ✘  22 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (retry #1) (5.9s)
+  ✘  21 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (retry #1) (5.9s)
+  ✘  23 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (retry #1) (7.9s)
+  ✘  24 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (6.2s)
+  ✘  26 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade (retry #2) (6.4s)
+  ✘  25 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade (retry #2) (7.4s)
+  ✘  27 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade (retry #2) (6.1s)
+  ✘  28 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (retry #1) (6.5s)
+  ✘  30 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (6.2s)
+  ✘  31 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (6.1s)
+  ✘  29 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (7.1s)
+  ✘  32 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade (retry #2) (5.5s)
+  ✘  33 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (retry #1) (5.7s)
+  ✘  34 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (retry #1) (6.1s)
+  ✘  35 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (retry #1) (4.9s)
+  ✘  36 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (6.3s)
+  ✘  37 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence (retry #2) (5.9s)
+  ✘  38 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence (retry #2) (4.6s)
+Terminate batch job (Y/N)?   ✘  41 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence (155ms)
+  ✘  39 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence (retry #2) (4.8s)
+  ✘  40 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence (retry #1) (2.3s)
+
+
+  1) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--cf0a5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--41132-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--b5e46-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--91347-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--02154-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--303a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--a1f06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--505dc-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('tab', { name: 'Underwriting' })[22m
+
+
+      20 |       
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+    > 22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+         |                                              ^
+      23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:22:46
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--3eab6-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--08a3f-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--859d4-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+
+    TypeError: Cannot read properties of undefined (reading 'click')
+
+      21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+    > 23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+         |                                               ^
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+      25 |       await page.waitForTimeout(2500); // wait for 2.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      26 |       
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:23:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: locator.selectText: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('link', { name: 'Contact Us' })[22m
+
+
+      19 |       );
+      20 |       
+    > 21 |       await topSidePanelPage.contactUsLink.selectText(); // auto-wait for the 'Contact Us' link to be visible and enabled
+         |                                            ^
+      22 |       await insuranceAppPage.underwritingTab.click(); // click the 'Documents' tab with a delay to ensure the 'View' button is loaded and clickable
+      23 |       await insuranceAppPage.quoteApplication.click(); // click the 'Quote Application' button to open the 'Create Quote' dialog box
+      24 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+        at C:\Users\LuisTalavera\QA\Playwright\Pulse\tests\Auth-10_create-Quote.spec.ts:21:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--87d6b-ysicianSurgeon---Occurrence-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+
+    Test was interrupted.
+
+    Error: browser.newContext: Test ended.
+    Browser logs:
+
+    <launching> C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\LUISTA~1\AppData\Local\Temp\playwright_chromiumdev_profile-uU9lbu --remote-debugging-pipe --no-startup-window
+    <launched> pid=30764
+    [pid=30764] <gracefully close start>
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-HOME--9d15f-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-HOME--9d15f-ysicianSurgeon---Occurrence-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12 failed
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: C94FE6C3-9160-4D8F-36B4-08DE38C84580 - 000003 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 0F499B5E-7CEF-41EC-8459-08DE39C62624 - 000004 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 252A948C-BA91-4E95-845A-08DE39C62624 - 000005 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 09728801-2468-4319-845B-08DE39C62624 - 000006 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 22EA07DC-97BD-45CA-845C-08DE39C62624 - 000007 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 73E76A79-A87C-4AE4-845D-08DE39C62624 - 000008 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BC659C69-EB16-4760-845E-08DE39C62624 - 000009 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: AAD9A152-6A39-4AFA-845F-08DE39C62624 - 000010 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: BA3C9A21-034C-4968-8460-08DE39C62624 - 000011 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 07F582E5-475D-4A3E-8461-08DE39C62624 - 000012 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 496D8AA5-2D8D-4B89-8462-08DE39C62624 - 000013 - PhysicianSurgeon - Occurrence 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 68034A46-009F-4836-8463-08DE39C62624 - 000014 - PhysicianSurgeon - Occurrence 
+  1 interrupted
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:12:9 › HOME ADMIN page using POM › Create Quote test for app no: 83DE5157-2B97-4238-8464-08DE39C62624 - 000015 - PhysicianSurgeon - Occurrence 
+  83 did not run
+  5 passed (1.6m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-06-17T14-57-56-664Z[39m
+[36m[39m
+
+^C

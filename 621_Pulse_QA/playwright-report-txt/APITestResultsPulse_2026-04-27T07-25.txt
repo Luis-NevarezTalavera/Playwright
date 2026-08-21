@@ -1,0 +1,24 @@
+
+Running 14 tests using 7 workers
+
+  ✓  4 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:56:5 › Get uiSectionSpecialties - Physician Surgeon - NewSpecialties - No Auth - 200 OK (613ms)
+  ✓  6 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:123:5 › Get uiSectionSpecialties - Healthcare Facility - Hospital - No Auth - 200 OK (539ms)
+  ✓  3 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:3:5 › Get appSpecialties - Facility - No Auth - 200 OK (645ms)
+  ✓  2 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:84:5 › Get uiSectionSpecialties - Physician Surgeon - Other - No Auth - 200 OK (680ms)
+  ✓  1 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:28:5 › Get uiSectionSpecialties - Physician Surgeon - PhysicianInTraining - No Auth - 200 OK (723ms)
+  ✓  5 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:112:5 › Get uiSectionSpecialties - Health Care Professional - Other - No Auth - 404 No Results (630ms)
+  ✓  7 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:151:5 › Get CGLItems - No Auth - 200 OK (581ms)
+  ✓  9 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:202:5 › Get CGLItems - Item N - No Auth - 200 OK (120ms)
+  ✓  8 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:180:5 › Get CGLItems - Item 1 - No Auth - 200 OK (130ms)
+  ✓  11 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:250:5 › Get Limits - No Auth - 200 OK (134ms)
+  ✓  12 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:278:5 › Get Specialties - No Auth - 200 OK (135ms)
+  ✓  14 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:336:5 › Get Zips - No Auth - 200 OK (128ms)
+  ✓  10 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:224:5 › Get Facility Professions - No Auth - 200 OK (345ms)
+  ✓  13 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:310:5 › Get States - No Auth - 200 OK (367ms)
+
+  14 passed (2.5s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-27T14-25-08-699Z[39m
+[36m[39m

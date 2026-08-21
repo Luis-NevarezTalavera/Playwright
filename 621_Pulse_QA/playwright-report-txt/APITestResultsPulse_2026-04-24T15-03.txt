@@ -1,0 +1,11 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 [chromium-notAuthenticated] › tests\API-SurveyJS-APIs.spec.ts:3:5 › Get Facility Specialties (530ms)
+
+  1 passed (1.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-04-24T22_03_23_340Z[39m
+[36m[39m

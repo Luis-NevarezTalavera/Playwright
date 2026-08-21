@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": ".AspNetCore.Antiforgery.cdV5uW_Ejgc",
+      "value": "CfDJ8Dpj2lC20MFAqr61jc43B4WrV6m7vY5nWd3XE1G5ZvzsyW-aiRh75UYZmMuvPzHDsFP-cc8sT-vryihGgtngFhWbsRzjNpDQyae33rh2oEFBHBjuBe7owspbAqIHqW775ynlaNhySMXmTq-1gY9TskU",
+      "domain": "pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ARRAffinity",
+      "value": "5296738170e643a871217f4db91a80ebf34b9f1aee58c3765070f74110785121",
+      "domain": ".pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ARRAffinitySameSite",
+      "value": "5296738170e643a871217f4db91a80ebf34b9f1aee58c3765070f74110785121",
+      "domain": ".pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".AspNetCore.Identity.Application",
+      "value": "CfDJ8Dpj2lC20MFAqr61jc43B4UnAfB9ZnkQUemSihfla3fienoqgN3qw6Cr7otQhHgFtuIomK_ArWu0xC7w-vOFXyuRGFpoV-UNh_BnqLZnzuRGojQnIRGLZ9uneC9zG2cUCVlw3npUHxQWm0_A1ebD9XFSWjg1HLxXmwpMljlG_ndmdHPDQac1ZPsXDjAe_69fYcYOZlpiGHcBdBs4HoeFi_NFBykG3A8-B7mzsg31Z6DC7HRI3ezARXkGG9RsyOjmn1lWZ5AqXeLw3PRZTIazXojfC-aZJfJPzgDmPATWm-shRIS3tH2a0EmrXRgSJ3Sd6lnjzmiHUEgWzAZwV0sarwLRxuO8AL0DmPGIl3ZeLxwfPT0YufzVCx9YrX4UVBUUEREfgraYDDCnEbI4SCh8mhypChERUFG1K_HjfkSQSeN3ZTDio3gUAXfKwSIqGbEFfud-vzLisQMlhgDupy7270lMg3gbCZ-0NNRYTMACBLJBtkxcBDgqvHkuZhCThgO4GnmMBdWCbFO3A_f-86exIMbSmhJ4GxUpwV_q5nuziMKW7e_VzH5GY5D0x5n7qZb3Jtu46cV3r6610KieGhzIoj_WJHXIWmZMlW-kZ6wqeDpv7rwWDESAqLE538mpjnsLjPJRAi1E6cLrw3evc3VZeWWp9w7GCkgXcI290rflQRt_FG4qmkBMDwtmpSobi5AaHeundOg3brxibmq009knl0p0qXUr2nz5vwC8XvBTFEief88C2YDOGFWw2l8wc8piTlNKmw0yvCDpyMoTt4jJ1IpbqznxBA5jsXHfQR6_EHQUIOyzugpnEd3kz36sqly8p4QF5A3Cnuww0cOxukjup1Bs5xAIZQUzDlYJVmny58Nzn2_6k7ZIr6H2hS0jIyCbfEzKXpLIdLn1dir2_sMn_w8",
+      "domain": "pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
