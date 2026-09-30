@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": ".AspNetCore.Antiforgery.cdV5uW_Ejgc",
+      "value": "CfDJ8J0gaCxGlPNGgAYJUc2LLbQl7NTF11y3fKiCqyMLviM1i3Mzb8xyQ1L3P2ktEY73EUETGJh_gQQ6R30Uc5-QVdFU2QP2D2tZgsPifPSDDSaJHUN1s5XgdAALrk8xyBxvW70OC60bW1gjGeiFGdzYVWY",
+      "domain": "pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ARRAffinity",
+      "value": "b5402d0083c5b50f835ef79783ff9277bd34fb2f5a1072e0413261fdc4171bdd",
+      "domain": ".pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ARRAffinitySameSite",
+      "value": "b5402d0083c5b50f835ef79783ff9277bd34fb2f5a1072e0413261fdc4171bdd",
+      "domain": ".pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "i3hcG7OZuGO6Qd21g3jWT6ZkWQAZW8VE3sDWuwSm5x4-1789574669.6669297-1.0.1.1-8UZjWAi9a5hFKSZ.A02iMLehl72g893l6wV4ZqqWXUskX7Vo9ukbbgIDqH7O2cM3cskZmUc5cfvHRVCqKjB8GmozROM4G.CM25OTUdOW2p8e3h3YKeKRFTlMmFY60Nn7",
+      "domain": ".bbrownretapps.com",
+      "path": "/",
+      "expires": 1789576470.726029,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".AspNetCore.Identity.Application",
+      "value": "CfDJ8J0gaCxGlPNGgAYJUc2LLbQcXbHPJ6J2yuJrJowImyrNp00jN_NXeKi31Pmlkxk6kQDDlkJQxor6PT446Av5SC_xT26AQPQTTsyTrArshdAh76FB5AfRD4BQwH_A6DjkRdBa04ozhcZMlwuQo_OvnsEWnnkzaZg_quC_V2_y_x8ASbJJRRyrP0QevgYCy1D8iFHIRnLQ1COwymHumJYTBRunZz5S-lekVclj7YqeTCw1U9Q7SncHe9WDTq0ViS9lq4xgC2oJv02tzcpW5wWz5whEBolnqT58WrQec9mmN5ZN6h7mU-uvanjzqRccXv3mFEm0CPt-AkYlhPU2JCb7phpDyCMu2bcrHakQ75OdXmg3ASXKTLmGxv2pwIKYppWa3GvFDCfDJjw3GnmEJV62W1iWcC4NrTEDAhe4HM882kTedpns2g7OBnLMck5NBIF6XSyg1u9awSz1a76Gy_FPAW78ycW_fyfajpC5L6Bxq3lsOclVWRvc8NfIxhXHbJSW-rxlGLeYGhuTG6UCi8LXIfOzO-Am1sUzVQ-pxdni7aAFU91CdpbWiuwCxe6nWqfKC33gq4ISdp_wPIyFNMkFpiZrfzWGG8-x-ywiGydWBUNqGcNkmP6EamYV-2rXqE4DTP27X6zaLn-t4QtmbFzRTa0FhX3D6KCddMuBsqnAW4piMNtuJWt4lYs3srBhPeOz8R5zgTMiZ7b-nzW58aC2rv4ioqaYvn8z5HXf2g8mu6eUaBWVVoI2Phgm8uiy6W5mpydY6bW2bDKr2wxHR1pDqLgW1eHhSyp3atCMsvAjBTX6G-s2rKx0sz1XPO_1JHEQQJLqLcNFjIYkaMERbV02TQjYU2i0mIYBkosyl1_9OK0aN0FVk9AGWeKVMbsNN0cLik5wvSVyjHHKvKtnhsGCTeI",
+      "domain": "pulse-dev.bbrownretapps.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

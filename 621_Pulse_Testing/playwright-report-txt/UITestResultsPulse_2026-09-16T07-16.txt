@@ -1,0 +1,309 @@
+
+Running 10 tests using 7 workers
+
+  ✓  2 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:46:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (8.7s)
+  ✓  5 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:51:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (10.9s)
+  ✓  1 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements on the BLUE TOP BAR are visible on the page (11.3s)
+  ✓  4 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:29:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (11.0s)
+  ✓  6 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:56:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (11.4s)
+  ✓  3 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (12.9s)
+  ✘  7 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (14.1s)
+  ✓  10 [msEdge-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (4.9s)
+  ✓  9 [msEdge-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (6.0s)
+  ✓  8 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (8.8s)
+  ✓  11 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (retry #1) (4.1s)
+
+
+  1) [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM 
+
+    Error: page
+
+    [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected string: [32m"https://pulse-dev.bbrownretapps.com/Account/Login"[39m
+    Received string: [31m"https://pulse-dev.bbrownretapps.com/Account/Login[7m?[27m"[39m
+    Call log:
+    [2m  - Expect "page" with timeout 5000ms[22m
+    [2m    8 × unexpected value "https://pulse-dev.bbrownretapps.com/Account/Login?"[22m
+
+
+      62 |     await homeNotLoggedInPage.loginToPulseLink.click();
+      63 |     await homeNotLoggedInPage['page'].waitForTimeout(2000); // Wait for the login page to load before asserting the URL)
+    > 64 |     await expect(homeNotLoggedInPage['page'],"page").toHaveURL("https://pulse-dev.bbrownretapps.com/Account/Login")
+         |                                                      ^
+      65 |   });
+      66 |   
+      67 | });
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\NotA-00_home-NotLoggedIn.spec.ts:64:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\NotA-00_home-NotLoggedIn-H-b75ae-page-when-clicked-using-POM-msEdge-notAuthenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 flaky
+    [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM 
+  9 passed (24.9s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-09-16T14-16-13-534Z[39m
+[36m[39m
+
+Running 101 tests using 4 workers
+
+  ✓  2 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:58:7 › Dashboard page › Verify Admin Side Panel Menu (4.5s)
+  ✓  1 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:23:7 › Dashboard page › Verify Underwriter Side Panel Menu and URL (4.5s)
+  ✓  3 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:15:7 › Dashboard page › Verify TOP BAR Elements and URL (6.7s)
+  ✓  4 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:32:7 › Dashboard page › Underwriter Dashboard (8.5s)
+  ✓  5 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:75:7 › Dashboard page › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (5.7s)
+  ✓  6 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade (8.9s)
+  ✓  7 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade (8.8s)
+  ✓  8 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade (8.6s)
+  ✓  9 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade (8.3s)
+  ✓  10 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade (8.4s)
+  ✓  11 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade (8.6s)
+  ✓  12 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade (8.6s)
+  ✓  13 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade (8.1s)
+  ✓  14 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000011 - PhysicianSurgeon - Occurrence (8.3s)
+  ✓  15 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000012 - PhysicianSurgeon - Occurrence (9.1s)
+  ✓  17 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000014 - PhysicianSurgeon - Occurrence (8.3s)
+  ✓  16 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000013 - PhysicianSurgeon - Occurrence (9.2s)
+  ✓  18 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000015 - PhysicianSurgeon - Occurrence (8.2s)
+  ✓  19 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000016 - PhysicianSurgeon - Occurrence (7.9s)
+  ✓  21 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000018 - PhysicianSurgeon - Occurrence (7.9s)
+  ✓  20 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000017 - PhysicianSurgeon - Occurrence (9.1s)
+  ✓  22 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000019 - HealthCareProfessional - ClaimsMade (8.3s)
+  ✓  23 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000020 - HealthCareProfessional - ClaimsMade (8.6s)
+  ✓  25 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000022 - HealthCareProfessional - ClaimsMade (7.9s)
+  ✓  26 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000023 - HealthCareProfessional - ClaimsMade (7.7s)
+  ✓  27 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000024 - HealthCareProfessional - ClaimsMade (7.6s)
+  ✓  24 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000021 - HealthCareProfessional - ClaimsMade (16.7s)
+  ✓  28 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000025 - HealthCareProfessional - ClaimsMade (8.3s)
+  ✓  29 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000026 - HealthCareProfessional - ClaimsMade (8.0s)
+  ✓  30 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000027 - HealthCareProfessional - Occurrence (7.9s)
+  ✓  31 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000028 - HealthCareProfessional - Occurrence (7.8s)
+  ✓  32 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000029 - HealthCareProfessional - Occurrence (8.6s)
+  ✓  33 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000030 - HealthCareProfessional - Occurrence (8.3s)
+  ✓  34 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000031 - HealthCareProfessional - Occurrence (7.9s)
+  ✓  35 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000032 - HealthCareProfessional - Occurrence (8.0s)
+  ✓  36 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000033 - HealthCareProfessional - Occurrence (8.3s)
+  ✓  37 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000034 - HealthCareProfessional - Occurrence (7.8s)
+  ✓  38 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000035 - FacilityAppl - ClaimsMade (7.9s)
+  ✓  39 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000036 - FacilityAppl - ClaimsMade (8.8s)
+  ✓  40 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000037 - FacilityAppl - ClaimsMade (7.8s)
+  ✘  41 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000038 - FacilityAppl - ClaimsMade (9.6s)
+  ✓  42 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000039 - FacilityAppl - ClaimsMade (8.7s)
+  ✓  44 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000041 - FacilityAppl - ClaimsMade (8.5s)
+  ✓  43 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000040 - FacilityAppl - ClaimsMade (8.9s)
+  ✓  45 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000042 - FacilityAppl - ClaimsMade (8.6s)
+  ✓  47 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000043 - FacilityAppl - Occurrence (8.8s)
+  ✓  48 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000044 - FacilityAppl - Occurrence (9.1s)
+  ✓  49 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000045 - FacilityAppl - Occurrence (8.9s)
+  ✓  51 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000047 - FacilityAppl - Occurrence (8.1s)
+  ✓  50 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000046 - FacilityAppl - Occurrence (9.0s)
+  ✓  52 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000048 - FacilityAppl - Occurrence (8.6s)
+  ✓  53 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000049 - FacilityAppl - Occurrence (8.7s)
+  ✓  54 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000050 - FacilityAppl - Occurrence (8.4s)
+  ✘  46 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000038 - FacilityAppl - ClaimsMade (retry #1) (31.7s)
+  ✓  55 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade (12.5s)
+  ✓  57 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade (12.6s)
+  ✓  56 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade (12.9s)
+  ✓  59 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade (11.9s)
+  ✓  60 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade (11.7s)
+  ✓  61 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade (11.8s)
+  ✓  62 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade (11.1s)
+  ✓  63 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade (11.4s)
+  ✓  64 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000011 - PhysicianSurgeon - Occurrence (11.6s)
+  ✘  58 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000038 - FacilityAppl - ClaimsMade (retry #2) (31.3s)
+  ✓  65 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000012 - PhysicianSurgeon - Occurrence (11.6s)
+  ✓  66 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000013 - PhysicianSurgeon - Occurrence (11.6s)
+  ✓  67 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000014 - PhysicianSurgeon - Occurrence (12.4s)
+  ✓  68 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000015 - PhysicianSurgeon - Occurrence (12.8s)
+  ✓  69 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000016 - PhysicianSurgeon - Occurrence (11.4s)
+  ✓  70 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000017 - PhysicianSurgeon - Occurrence (11.9s)
+  ✓  71 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000018 - PhysicianSurgeon - Occurrence (11.9s)
+  ✓  72 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000019 - HealthCareProfessional - ClaimsMade (11.5s)
+  ✓  73 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000020 - HealthCareProfessional - ClaimsMade (11.5s)
+  ✓  74 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000021 - HealthCareProfessional - ClaimsMade (11.8s)
+  ✓  75 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000022 - HealthCareProfessional - ClaimsMade (12.0s)
+  ✓  76 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000023 - HealthCareProfessional - ClaimsMade (11.5s)
+  ✓  77 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000024 - HealthCareProfessional - ClaimsMade (12.0s)
+  ✓  78 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000025 - HealthCareProfessional - ClaimsMade (11.8s)
+  ✓  79 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000026 - HealthCareProfessional - ClaimsMade (11.6s)
+  ✓  80 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000027 - HealthCareProfessional - Occurrence (11.7s)
+  ✓  81 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000028 - HealthCareProfessional - Occurrence (11.5s)
+  ✓  82 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000029 - HealthCareProfessional - Occurrence (12.1s)
+  ✓  83 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000030 - HealthCareProfessional - Occurrence (12.2s)
+  ✓  84 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000031 - HealthCareProfessional - Occurrence (11.6s)
+  ✓  85 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000032 - HealthCareProfessional - Occurrence (12.3s)
+  ✓  86 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000033 - HealthCareProfessional - Occurrence (12.1s)
+  ✓  87 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000034 - HealthCareProfessional - Occurrence (12.0s)
+  ✓  88 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000035 - FacilityAppl - ClaimsMade (11.5s)
+  ✓  89 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000036 - FacilityAppl - ClaimsMade (12.0s)
+  ✓  90 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000037 - FacilityAppl - ClaimsMade (11.6s)
+  ✓  91 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000038 - FacilityAppl - ClaimsMade (11.5s)
+  ✓  92 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000039 - FacilityAppl - ClaimsMade (12.0s)
+  ✓  93 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000040 - FacilityAppl - ClaimsMade (12.3s)
+  ✓  94 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000041 - FacilityAppl - ClaimsMade (11.8s)
+  ✓  95 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000042 - FacilityAppl - ClaimsMade (13.1s)
+  ✓  96 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000043 - FacilityAppl - Occurrence (12.5s)
+  ✓  97 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000044 - FacilityAppl - Occurrence (11.6s)
+  ✓  98 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000045 - FacilityAppl - Occurrence (12.3s)
+  ✓  99 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000046 - FacilityAppl - Occurrence (11.5s)
+  ✓  100 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000047 - FacilityAppl - Occurrence (11.6s)
+  ✓  101 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000048 - FacilityAppl - Occurrence (11.4s)
+  ✓  102 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000049 - FacilityAppl - Occurrence (11.6s)
+  ✓  103 [msEdge-Authenticated] › tests\Auth-11_preview-Quote.spec.ts:12:9 › Insurance application - UW Tab › Preview Quote test for app no: 000050 - FacilityAppl - Occurrence (11.7s)
+
+
+  1) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000038 - FacilityAppl - ClaimsMade 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveScreenshot[2m([22m[32mexpected[39m[2m)[22m
+
+      3309 pixels (ratio 0.02 of all image pixels) are different.
+
+    Call log:
+    [2m  - Expect "toHaveScreenshot" with timeout 5000ms[22m
+    [2m    - verifying given screenshot expectation[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - 3309 pixels (ratio 0.02 of all image pixels) are different.[22m
+    [2m  - waiting 100ms before taking screenshot[22m
+    [2m  - taking page screenshot[22m
+    [2m    - disabled all CSS animations[22m
+    [2m  - waiting for fonts to load...[22m
+    [2m  - fonts loaded[22m
+    [2m  - captured a stable screenshot[22m
+    [2m  - 3309 pixels (ratio 0.02 of all image pixels) are different.[22m
+
+
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+    > 32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+         |                          ^
+      33 |
+      34 |     });
+      35 |   });
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:32:26
+
+    attachment #1: Insurance-application---UW-4012a-FacilityAppl---ClaimsMade-1 (image/png) ────────
+    Expected: tests\Auth-10_create-Quote.spec.ts-snapshots\Insurance-application---UW-Tab-Create-Quote-test-for-app-no-000038---FacilityAppl---ClaimsMade-1-msEdge-Authenticated-win32.png
+    Received: test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-4012a-FacilityAppl---ClaimsMade-1-actual.png
+    Diff:     test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\Insurance-application---UW-4012a-FacilityAppl---ClaimsMade-1-diff.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8b6c9---FacilityAppl---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000038 - FacilityAppl - ClaimsMade 
+  100 passed (4.6m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-09-16T14-16-40-334Z[39m
+[36m[39m
+

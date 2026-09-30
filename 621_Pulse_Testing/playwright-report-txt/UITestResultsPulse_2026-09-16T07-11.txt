@@ -1,0 +1,850 @@
+
+Running 10 tests using 7 workers
+
+  ✓  2 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:46:7 › Home Page not Logged In › LATEST NEWS from main: Should navigate to the 1st Latest News page when clicked using POM (5.3s)
+  ✓  4 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:56:7 › Home Page not Logged In › CREATE NEW ACCOUNT from main: Should navigate to SelectRole when clicked using POM (5.9s)
+  ✓  6 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:61:7 › Home Page not Logged In › LOGIN TO PULSE from main: Should navigate to Login page when clicked using POM (8.2s)
+  ✓  5 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:17:7 › News 1st Page - not Logged In › Verify that the elements on the BLUE TOP BAR are visible on the page (9.4s)
+  ✓  7 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:29:9 › News 1st Page - not Logged In › Verify that the elements on the PDF Viewer are visible on the page (11.1s)
+  ✓  3 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:51:7 › Home Page not Logged In › UNDERWRITER NOTIFICATIONS from main: Should navigate to Underwriter 1st Notifications page when clicked using POM (12.3s)
+  ✓  1 [msEdge-notAuthenticated] › tests\NotA-00_home-NotLoggedIn.spec.ts:18:7 › Home Page not Logged In › Should display the expected controls on the Blue Top bar, Main Content (13.9s)
+  ✓  8 [msEdge-notAuthenticated] › tests\NotA-01_news-NotLoggedIn.spec.ts:45:9 › News 1st Page - not Logged In › Clicking MMJUALink should navigate to the Home page (8.7s)
+  ✓  9 [msEdge-notAuthenticated] › tests\NotA-02_login-mfa.spec.ts:26:1 › Should Login with valid credentials and enter MFA code using POM (8.0s)
+  ✓  10 [msEdge-notAuthenticated] › tests\NotA-03_login.spec.ts:14:1 › LOGIN PAGE: Should Display the Expected controls and Login with valid credentials using POM (6.1s)
+
+  10 passed (21.7s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-09-16T14-11-42-327Z[39m
+[36m[39m
+
+Running 101 tests using 4 workers
+
+  ✓  4 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:23:7 › Dashboard page › Verify Underwriter Side Panel Menu and URL (4.1s)
+  ✓  2 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:58:7 › Dashboard page › Verify Admin Side Panel Menu (4.8s)
+  ✓  1 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:15:7 › Dashboard page › Verify TOP BAR Elements and URL (6.8s)
+  ✓  3 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:32:7 › Dashboard page › Underwriter Dashboard (7.7s)
+  ✓  5 [msEdge-Authenticated] › tests\Auth-01_dashboard.spec.ts:75:7 › Dashboard page › Verify clicking MMJUA icon it takes to the Underwriter Dashboard (4.8s)
+  ✘  6 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade (30.8s)
+  ✘  7 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade (31.5s)
+  ✘  8 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade (31.9s)
+  ✘  9 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade (31.3s)
+  ✘  10 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade (retry #1) (30.8s)
+  ✘  11 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade (retry #1) (31.1s)
+  ✘  12 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade (retry #1) (31.1s)
+  ✘  13 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade (retry #1) (32.2s)
+  ✘  14 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade (retry #2) (30.8s)
+  ✘  15 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade (retry #2) (30.9s)
+  ✘  16 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade (retry #2) (31.9s)
+  ✘  17 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade (retry #2) (31.1s)
+  ✘  18 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade (30.9s)
+  ✘  19 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade (31.0s)
+  ✘  20 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade (31.3s)
+  ✘  21 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade (31.6s)
+  ✘  22 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade (retry #1) (30.8s)
+  ✘  23 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade (retry #1) (31.0s)
+Terminate batch job (Y/N)?   ✘  26 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade (retry #2) (7.6s)
+  ✘  27 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade (retry #2) (2.2s)
+  ✘  25 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade (retry #1) (27.9s)
+  ✘  24 [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade (retry #1) (31.2s)
+
+
+  1) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-69988-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('checkbox', { name: 'Yes' }).nth(2)[22m
+
+
+      23 |
+      24 |       if (ManualEndorsement) {
+    > 25 |         await insuranceAppPage.addManualJUA55YesCheckbox.click();
+         |                                                          ^
+      26 |         await insuranceAppPage.manualJUA55Textbox.fill("Manual JUA55 Text for Quote Document");
+      27 |       }
+      28 |
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:25:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8a0a1-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-18ac9-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-0ab1c-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-3f146-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: page.goto: Test ended.
+    Call log:
+    [2m  - navigating to "https://pulse-dev.bbrownretapps.com/InsuranceApp/73E76A79-A87C-4AE4-845D-08DE39C62624", waiting until "load"[22m
+
+
+      14 |       topSidePanelPage = new TopSidePanelPage(page);
+      15 |       insuranceAppPage = new InsuranceApplicationsPage(page);
+    > 16 |       await page.goto(
+         |                  ^
+      17 |         `https://pulse-dev.bbrownretapps.com/InsuranceApp/${appId}`,
+      18 |       );
+      19 |       
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:16:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-6a5ad-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-35cb5-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+    [2m  - waiting for getByRole('button', { name: 'Create Quote' })[22m
+
+
+      27 |       }
+      28 |
+    > 29 |       await insuranceAppPage.createQuoteButton.click(); // click the 'Create Quote' button to create the quote document
+         |                                                ^
+      30 |       await page.waitForTimeout(3500); // wait for 3.5 seconds to ensure the quote document is created and the 'View' button is updated in the UI
+      31 |       
+      32 |       await expect(page).toHaveScreenshot({ clip: { x: 0, y: 0, width: 1280, height: 225 }, maxDiffPixels: 25 }); // capture screenshot and compare with baseline, allowing for a 5% difference threshold
+        at C:\Users\LuisTalavera\QA\Playwright\621_Pulse_Testing\tests\Auth-10_create-Quote.spec.ts:29:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Auth-10_create-Quote-Insur-8ea06-ysicianSurgeon---ClaimsMade-msEdge-Authenticated-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000003 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000004 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000005 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000006 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000007 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000008 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000009 - PhysicianSurgeon - ClaimsMade 
+    [msEdge-Authenticated] › tests\Auth-10_create-Quote.spec.ts:11:9 › Insurance application - UW Tab › Create Quote test for app no: 000010 - PhysicianSurgeon - ClaimsMade 
+  88 did not run
+  5 passed (3.0m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report playwright-report\results-2026-09-16T14-12-06-228Z[39m
+[36m[39m
+
+^C
